@@ -66,13 +66,18 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 main.obj
 ```
 
-Above, we see that the compiler is called `cl` and we've included some 
-command-line switches (`/EHsc`) which are needed to prevent warnings 
-regarding the use of the `iostream` library. The main point though, is once 
-again, we specify the path to the source code if it does not exist in the 
-directory in which the compiler is invoked. You'll also notice here, that 
-the name of the executable has taken on the same root name as the source 
-file (`main` in this case).
+Above, we see that the compiler is called `cl` and we've included a 
+command-line switch (`/EHsc`). The `/EHsc` command-line option instructs the 
+compiler to enable standard C++ exception handling behavior. Without it, 
+thrown exceptions can result in undestroyed objects and resource leaks. For 
+more information, see `/EH` ([Exception Handling Model](https://learn.
+microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?
+view=msvc-170)). We'll learn more about exception handling in this course.
+
+The main point though, is once again, we specify the path to the source code 
+if it does not exist in the directory in which the compiler is invoked. 
+You'll also notice here, that the name of the executable has taken on the 
+same root name as the source file (`main` in this case).
 
 To execute this program, we would now type:
 
