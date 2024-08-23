@@ -90,3 +90,10 @@ The volume of a sphere of radius 3.25 inches is 45.7708 cubic inches.
 Again, here we assume the user has pressed the ENTER key after typing `.
 \main.exe` and after they entered the radius (3.25). The output is of course,
 the same as before as we supplied the same input.
+
+## The Bag Interface
+
+Background: 
+
+* [C++ Interlude 1 C++ Classes](https://bookshelf.vitalsource.com/reader/books/9780138122782/epubcfi/6/46%5B%3Bvnd.vst.idref%3DP70010183410000000000000000009FA%5D!/4/2%5BP70010183410000000000000000009FA%5D/2/2%5BP70010183410000000000000000009FB%5D/7:0%5B%2C%20C%2B%5D)
+* [Chapter 2 Bags](https://bookshelf.vitalsource.com/reader/books/9780138122782/epubcfi/6/62%5B%3Bvnd.vst.idref%3DP7001018341000000000000000000CEA%5D!/4/2%5BP7001018341000000000000000000CEA%5D/2/2%5BP7001018341000000000000000000CEB%5D/7:0%5B%2CBag%5D)
