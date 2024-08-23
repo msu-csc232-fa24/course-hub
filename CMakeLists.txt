@@ -12,4 +12,4 @@ endif()
 project ("course-hub")
 
 # Include sub-projects.
-add_subdirectory ("lec01")
+add_subdirectory ("01-fundamentals")
