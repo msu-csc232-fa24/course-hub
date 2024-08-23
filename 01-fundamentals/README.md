@@ -14,10 +14,13 @@ The source code in this project is distributed among numerous directories.
 .
 ├── CMakeLists.txt
 ├── README.md
-├── src
-│   └── main
-│       └── cpp
-│           └── main.cpp
+├── include
+│   ├── Bag.h
+│   └── csc232.h
+└── src
+    └── main
+        └── cpp
+            └── main.cpp
 ```
 
 Thus, to compile the program found in `main.cpp`, we need to follow the path 
